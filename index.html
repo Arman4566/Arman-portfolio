@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman Ahamad | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Arman<span>.dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills & Tools</a></li>
+                <li><a href="#certificates">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-avatar">
+                <div class="avatar-glowing-ring"></div>
+                <img src="profile.jpg" alt="Arman Ahamad Profile Pic" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="glitch" data-text="Arman Ahamad">Arman Ahamad</h1>
+                <h2 class="typing-text">BCA Student &amp; Software Developer</h2>
+                <p class="hero-bio">Building intelligent mobile applications, AI-driven solutions, and highly interactive user interfaces.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text-card glass-card">
+                    <p>I am a highly motivated <strong>BCA Student</strong> at <strong>MIET Kumaon (Haldwani, Uttarakhand)</strong> with a deep-rooted passion for computer science fundamentals, modern programming languages, and intelligent systems.</p>
+                    <p>My core development pipeline revolves around creating fully integrated mobile applications using <strong>Flutter &amp; Dart</strong>, constructing clean backends, and infusing smart automation features like OCR and LLM-driven custom proxies.</p>
+                    <p>Driven by endless curiosity, I love translating complex algorithmic workflows into clean, interactive, and beautifully accessible user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-heart-pulse project-icon"></i>
+                        <span class="project-tag">Full-Stack AI Mobile</span>
+                    </div>
+                    <h3 class="project-name">My Sathi</h3>
+                    <p class="project-desc">A comprehensive Patient Care &amp; AI Medical Companion app built to secure and simplify personal healthcare management. Integrates secure on-device OCR scanners and dynamic server-side proxy routes using Node.js to safety-guard healthcare data processing.</p>
+                    <ul class="project-highlights">
+                        <li><i class="fa-solid fa-circle-check"></i> On-Device OCR with Google ML Kit &amp; Gemini 1.5 Flash parsing</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Context-aware patient health companion and local secure SQLite memory</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Robust emergency symptom trigger loops and medical alarms</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Node.js</span>
+                        <span>Gemini API</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-eye project-icon"></i>
+                        <span class="project-tag">Accessibility App</span>
+                    </div>
+                    <h3 class="project-name">My Eyes (Arman App)</h3>
+                    <p class="project-desc">An accessible, purely voice-driven Flutter mobile application engineered to assist visually impaired users. Empowers individuals to fluidly navigate, run real-time hardware tools, and track live physical locations using simple voice cues.</p>
+                    <ul class="project-highlights">
+                        <li><i class="fa-solid fa-circle-check"></i> Hands-free navigation with responsive voice-to-text inputs</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Smart voice feedback system utilizing dynamic flutter_tts pipelines</li>
+                        <li><i class="fa-solid fa-circle-check"></i> GPS position alerts, platform intent queries, and integrated camera setups</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Speech-to-Text</span>
+                        <span>Geolocator</span>
+                        <span>Camera API</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-title">Technical Expertise</h2>
+            
+            <div class="skills-container">
+                <div class="skills-column glass-card">
+                    <h3><i class="fa-solid fa-code"></i> Skills &amp; Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-pill"><i class="fa-brands fa-flutter color-flutter"></i> Flutter</div>
+                        <div class="skill-pill"><i class="fa-solid fa-terminal color-dart"></i> Dart</div>
+                        <div class="skill-pill"><i class="fa-brands fa-python color-python"></i> Python</div>
+                        <div class="skill-pill"><i class="fa-solid fa-database color-mysql"></i> MySQL</div>
+                        <div class="skill-pill"><i class="fa-solid fa-c color-c"></i> C (DSA)</div>
+                        <div class="skill-pill"><i class="fa-brands fa-java color-java"></i> Java</div>
+                        <div class="skill-pill"><i class="fa-brands fa-node-js color-node"></i> MERN Stack</div>
+                        <div class="skill-pill"><i class="fa-solid fa-brain color-ai"></i> Artificial Intelligence</div>
+                        <div class="skill-pill"><i class="fa-solid fa-network-wired"></i> Computer Networking</div>
+                    </div>
+                </div>
+
+                <div class="skills-column glass-card">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Developer Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-pill tool-pill"><i class="fa-solid fa-laptop-code"></i> VS Code</div>
+                        <div class="skill-pill tool-pill"><i class="fa-brands fa-git-alt"></i> Git</div>
+                        <div class="skill-pill tool-pill"><i class="fa-brands fa-github"></i> GitHub</div>
+                        <div class="skill-pill tool-pill"><i class="fa-brands fa-android"></i> Android Studio</div>
+                        <div class="skill-pill tool-pill"><i class="fa-solid fa-image"></i> Adobe Photoshop</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-title">Licenses &amp; Certifications</h2>
+            <div class="cert-timeline">
+                
+                <div class="timeline-item glass-card">
+                    <span class="cert-date">Feb 2026</span>
+                    <h4>Fundamentals of Computer Systems</h4>
+                    <p class="cert-issuer">SWAYAM MHRD</p>
+                    <span class="badge">Credential ID: UK02010057</span>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <span class="cert-date">Jan 2026</span>
+                    <h4>Artificial Intelligence using Prolog</h4>
+                    <p class="cert-issuer">SWAYAM MHRD</p>
+                    <span class="badge">Credential ID: UK02010057</span>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <span class="cert-date">Jun 2024 – Aug 2025</span>
+                    <h4>Master Diploma in Computer Information &amp; System Management</h4>
+                    <p class="cert-issuer">Annex Computer Centre (Om Sai Society of Info Tech)</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card">
+                    <h3>Let's build something epic!</h3>
+                    <p>I am looking for internship opportunities where I can apply my mobile development and AI integrations to solve real-world problems.</p>
+                    <div class="contact-details">
+                        <p><i class="fa-solid fa-location-dot"></i> Haldwani, Uttarakhand, India</p>
+                        <p><i class="fa-solid fa-envelope"></i> armanahmad15368@gmail.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/arman-ahamad-b96413318?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Arman4566" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form glass-card">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email Address" required autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arman Ahamad. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
